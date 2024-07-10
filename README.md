@@ -1,46 +1,39 @@
-# Getting Started with Create React App
+# Personal Library Manager
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the Personal Library Manager, a mini-library application that allows you to manage your book collection. This project features a table displaying all the books available in the library, provided by a mock Node.js server. You can filter the books by title or genre, paginate through the book list, and perform actions like editing or deleting books.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Filter Books by Title**: Easily find a book by typing its title.
+- **Filter Books by Genre**: Classify books based on their genre.
+- **Pagination**: Navigate through the book list with pagination controls.
+- **Edit and Delete Books**: Edit the details of a specific book or remove it from the table.
 
-### `npm start`
+## Setup
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Follow these steps to set up and run the project on your local machine:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+1. **Clone the Repository**
 
-### `npm test`
+   ```bash
+   git clone <repository-url>
+   cd <repository-directory>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. **Install Dependencies**
 
-### `npm run build`
+ npm install
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. **Start The Mock Server**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+node index.js
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. **Run the React Development Server**
 
-### `npm run eject`
+npm start
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Usage
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **Search by Title: Use the search bar to find books by their title.**
+- **Filter by Genre: Use the genre filter to display books of a specific genre.**
+- **Edit a Book: Click the edit icon in the actions column to modify a book's details.**
+- **Delete a Book: Click the delete icon in the actions column to remove a book from the list.**
